@@ -166,3 +166,51 @@ nav .navigation ul li a:hover{
 	font-weight: 400;
 	color:rgb(70,70,87);
 }
+
+/* products */
+#products{
+	padding: 8vw 8vw 0 8vw;
+	text-align: center;
+}
+#products .product-box{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1rem;
+	margin-top: 50px;
+}
+#products .coffee{
+	text-align: start;
+	background: #f9f9ff;
+	height: 100%;
+	position: relative;
+}
+#products .coffee img{
+	width: 40%;
+	height: 50%;
+	background-size: cover;
+	background-position: center;
+}
+#products .product-box{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1rem;
+	margin-top: 50px;
+}
+
+#products .coffee .details{
+	padding: 15px 15px 0 15px;
+
+}
+
+#products .coffee .cost{
+	background-color: rgb(98, 50, 0);
+	color: #fff;
+	line-height: 70px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+}
