@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "styles.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<title>Early Bird Cafe</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = "stylesheet">
+</head>
+<body>
+	<!--Navigation-->
+	<nav>
+		<img src="images/logo.png">
+		<div class = "navigation">
+			<ul>
+				<i id = "menu-close" class='bx bx-shield-x bx-flip-vertical' ></i>
+				<li><a  href = "index.html">Home</a></li>
+				<li><a  href = "about.html">about us</a></li>
+				<li><a  href = "products.html">What we have?</a></li>
+				<li><a  class = "active" href = "contact.html">Contact</a></li>
+			</ul>
+			<img id = "menu-btn" src = "images/menu.png">
+		</div>
+	</nav>
+
+	<!--Home-->
+
+	<section id = "contact-home">
+		<h2 class = "maintext">Contact Us</h2>
+	</section>
+
+	<section id = "contact">
+		<div class = "getin">
+			<h2>Get in touch</h2>
+			<p>Need help or have ideas? tell us >▽< </p>
+			<div class = "getin-details">
+				<h3>Headquarters</h3>
+				<div>
+					<i class='bx bx-home get' ></i>
+					<p>The Storm Gates, Oratoria, Igdrasil 23989</p>
+				</div>
+				<h3>Phone</h3>
+				<div>
+					<i class='bx bx-headphone get' ></i>
+					<p>(+777) 777 777 777<br>
+						 (+111) 111 111 111
+					</p>
+				</div>
+				<h3>Support</h3>
+				<div>
+					<<i class='bx bx-envelope get' ></i>
+					<p>earlybirdcafesupport@gmail.com</p>
+				</div>
+				<h3>Follow us</h3>
+				<div class = "pro-links">
+					<i class='bx bxl-facebook-circle '></i>
+					<i class='bx bxl-instagram-alt ' ></i>
+					<i class='bx bxl-linkedin-square '></i>
+				</div>
+			</div>
+		</div>
+		<div class = "form">
+			<h4>Let's connect</h4>
+			<p>Sign to start work with us</p>
+			<div class = "form-row">
+				<input type = "text" placeholder = "Your name">
+				<input type = "text" placeholder = "Email">
+			</div>
+			<div class = "form-col">
+				<input type="text" placeholder="subject">
+			</div>
+			<div class = "form-col">
+				<textarea name = "" id = "" cols = "30" rows = "8" placeholder = "how can we help"></textarea>
+			</div>
+			<div class = "form-col">
+				<button>Send message</button>
+			</div>
+		</div>
+	</section>
+	<section id = "map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93561.93331227147!2d74.50946003181461!3d42.87684550473782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7dc91b3c881%3A0x492ebaf57cdee27d!2z0JHQuNGI0LrQtdC6!5e0!3m2!1sru!2skg!4v1716416354595!5m2!1sru!2skg" 
+		style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+
+
+	<!--Footer-->
+	<footer id = "products-footer-main">
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+</body>
+
+</html>
