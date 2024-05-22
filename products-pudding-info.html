@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "styles.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<title>Early Bird Cafe</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = "stylesheet">
+</head>
+<body>
+	<!--Navigation-->
+	<nav>
+		<img src="images/logo.png">
+		<div class = "navigation">
+			<ul>
+				<i id = "menu-close" class='bx bx-shield-x bx-flip-vertical' ></i>
+				<li><a  href = "index.html">Home</a></li>
+				<li><a  href = "about.html">about us</a></li>
+				<li><a class = "active" href = "products.html">What we have?</a></li>
+				<li><a href = "contact.html">Contact</a></li>
+			</ul>
+			<img id = "menu-btn" src = "images/menu.png">
+		</div>
+	</nav>
+
+	<!--Home-->
+
+	<section id = "products-Home-pudding">
+		<h2 class = "maintext">" Stirring Up Moments of Sweet Bliss in Every Sip and Spoonful."</h2>
+	</section>
+	<section id = "products-inner">
+		<div class = "overview">
+			<img class = "products-img" src = "images/tapiocaPuddingPic.jpg">
+			<div class = "products-head">
+				<div class = "p-name">
+					<h2>TapiocaPudding and coffee...</h2>
+					<p>Tapioca pudding's creamy sweetness perfectly complements 
+						the rich boldness of coffee, creating a harmonious and indulgent pairing.
+					</p>
+				</div>
+				<span>$5.89</span>
+			</div>
+			<h3>Why tapioca pudding good with coffee?</h3>
+			<p>1. Contrasting Textures<br><br>
+				Creamy and Smooth vs. Rich and Bold: The creamy consistency of tapioca pudding contrasts beautifully with the robust texture of coffee, creating a dynamic mouthfeel with every bite and sip.<br><br>
+				2. Complementary Flavors<br><br>
+				Sweetness and Bitterness: The subtle sweetness of tapioca pudding harmonizes with the bold, slightly bitter notes of coffee, resulting in a balanced flavor profile that enhances the overall taste experience.<br><br>
+				3. Aromatic Harmony<br><br>
+				Inviting Scents: The enticing aroma of freshly brewed coffee complements the comforting scent of warm tapioca pudding, creating an inviting atmosphere that heightens the enjoyment of both.<br><br>
+				4. Cultural Tradition<br><br>
+				Versatile Pairing: Tapioca pudding is a versatile dessert that pairs well with various beverages, including coffee. This combination is enjoyed in many cultures, offering a taste of tradition and nostalgia.<br><br>
+				5. Satisfying Indulgence<br><br>
+				Comfort Food: Both tapioca pudding and coffee are often associated with comfort and indulgence, making them a perfect duo for cozy mornings, afternoon pick-me-ups, or dessert time.<br><br>
+				6. Customizable Creations<br><br>
+				Endless Possibilities: Tapioca pudding can be customized with different toppings or flavorings, allowing for creative combinations that complement the unique characteristics of various coffee blends or brewing methods.<br><br>
+				7. Balanced Nutrition<br><br>
+				Energy Boost: The caffeine in coffee provides a natural energy boost, while tapioca pudding offers carbohydrates for sustained energy, making this pairing a satisfying and nutritious option.<br><br>
+				8. Social Enjoyment<br><br>
+				Shared Moments: Enjoying tapioca pudding and coffee together can foster moments of connection and camaraderie, whether shared with loved ones or savored alone as a comforting indulgence.
+				Overall, the combination of tapioca pudding and coffee creates a delightful sensory experience, blending contrasting textures, harmonious flavors, and comforting aromas for a truly satisfying treat.
+			</p>
+		</div>
+		<div class = "enroll">
+			<h3>TapiocaPudding includes:</h3>
+			<p><i class='bx bx-cheese'></i>  Tapioca pudding provides carbohydrates, which are the body's primary source of energy.</p>
+			<p><i class='bx bx-sushi'></i> Tapioca pearls are easy to digest, making tapioca pudding a gentle option for those with sensitive stomachs.</p>
+			<p><i class='bx bx-bowl-rice'></i> Tapioca pearls are naturally gluten-free, making tapioca pudding suitable for individuals with gluten sensitivities or celiac disease.</p>
+			<p><i class='bx bx-fork'></i>  While tapioca pearls themselves are not particularly nutrient-dense, tapioca pudding is often made with milk, which provides essential nutrients such as calcium, vitamin D, and protein.</p>
+			<p><i class='bx bx-bowl-hot'></i>   Tapioca pearls absorb liquid, contributing to hydration when consumed as part of tapioca pudding.</p>
+			<p><i class='bx bxs-hot' ></i> The chewy texture of tapioca pearls adds a unique mouthfeel to tapioca pudding, enhancing the overall eating experience.</p>
+			<div class = "enroll-btn">
+				<a class = "blue" href = "#">Order</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Footer-->
+	<footer id = "products-footer-main">
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+</body>
+
+</html>

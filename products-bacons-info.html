@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "styles.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<title>Early Bird Cafe</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = "stylesheet">
+</head>
+<body>
+	<!--Navigation-->
+	<nav>
+		<img src="images/logo.png">
+		<div class = "navigation">
+			<ul>
+				<i id = "menu-close" class='bx bx-shield-x bx-flip-vertical' ></i>
+				<li><a  href = "index.html">Home</a></li>
+				<li><a  href = "about.html">about us</a></li>
+				<li><a class = "active" href = "products.html">What we have?</a></li>
+				<li><a href = "contact.html">Contact</a></li>
+			</ul>
+			<img id = "menu-btn" src = "images/menu.png">
+		</div>
+	</nav>
+
+	<!--Home-->
+
+	<section id = "products-Home-bacons">
+		<h2 class = "maintext">"Ah...Bacon and Coffee"</h2>
+	</section>
+	<section id = "products-inner">
+		<div class = "overview">
+			<img class = "products-img" src = "images/bacon and coffee.jpg">
+			<div class = "products-head">
+				<div class = "p-name">
+					<h2>Bacons with coffee...</h2>
+					<p>Bacon's rich, savory flavor and crispy texture perfectly complement the bold, 
+						bitter notes of coffee, creating a balanced and satisfying breakfast combination.</p>
+				</div>
+				<span>$6.89</span>
+			</div>
+			<h3>Why bacons good with coffee ?</h3>
+			<p>Bacon and coffee make a surprisingly good pairing for several reasons<br><br>
+
+				1. Complementary Flavors<br><br>
+				Sweet and Savory Balance: The rich, savory flavor of bacon pairs well with the bitter and slightly acidic notes of coffee. This balance enhances the taste experience, creating a satisfying contrast.
+				Umami and Bitterness: Bacon has a strong umami flavor that complements the bitterness of coffee, making each sip and bite more enjoyable.<br><br>
+				2. Aromatic Appeal<br><br>
+				Inviting Aromas: The smell of freshly brewed coffee combined with the aroma of sizzling bacon creates an inviting and comforting atmosphere, stimulating the senses and appetite.<br><br>
+				3. Textural Contrast<br><br>
+				Crunchy and Smooth: The crispy texture of bacon contrasts nicely with the smooth, liquid texture of coffee, adding an enjoyable variety to your breakfast experience.<br><br>
+				4. Enhanced Enjoyment<br><br>
+				Comfort Food: Both bacon and coffee are often associated with comfort and pleasure. Together, they create a comforting and indulgent breakfast or brunch experience.
+				Morning Ritual: Combining bacon and coffee can elevate your morning routine, making breakfast feel more special and satisfying.<br><br>
+				5. Nutritional Balance<br><br>
+				Protein and Caffeine: Bacon provides protein and fats, which can help balance the caffeine intake from coffee, giving you sustained energy throughout the morning.
+				Satiating: The protein and fat content in bacon can help keep you full and satisfied, complementing the energy boost from coffee.<br><br>
+				6. Cultural Tradition<br><br>
+				Classic Breakfast Pairing: Bacon and coffee are staples in many traditional breakfasts around the world, making them a familiar and beloved combination for many people.<br><br>
+				7. Versatility<br><br>
+				Flexible Pairing Options: Bacon can be enjoyed in various forms—crispy, chewy, maple-glazed, or peppered—each pairing well with different types of coffee, whether it's a strong black coffee, a creamy latte, or a sweet mocha.
+				Overall, the combination of bacon and coffee creates a delightful culinary experience that satisfies multiple senses, making it a popular and beloved pairing for breakfast or brunch.</p>
+		</div>
+		<div class = "enroll">
+			<h3>Bacon includes:</h3>
+			<p><i class='bx bx-cheese'></i> Bacon is a good source of high-quality protein</p>
+			<p><i class='bx bx-sushi'></i> Contains both saturated and unsaturated fats, providing a rich, savory flavor and energy</p>
+			<p><i class='bx bx-bowl-rice'></i> Bacon includes essential nutrients such as B vitaminsBacon includes essential nutrients such as B vitamins</p>
+			<p><i class='bx bx-fork'></i> Bacon is rich in umami flavor compounds</p>
+			<p><i class='bx bx-bowl-hot'></i> Typically cured with salt</p>
+			<p><i class='bx bxs-hot' ></i> Many bacons are smoked, adding to the complex, deep flavor.</p>
+			<div class = "enroll-btn">
+				<a class = "blue" href = "#">Order</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Footer-->
+	<footer id = "products-footer-main">
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+</body>
+
+</html>

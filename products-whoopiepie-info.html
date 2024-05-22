@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "styles.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<title>Early Bird Cafe</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = "stylesheet">
+</head>
+<body>
+	<!--Navigation-->
+	<nav>
+		<img src="images/logo.png">
+		<div class = "navigation">
+			<ul>
+				<i id = "menu-close" class='bx bx-shield-x bx-flip-vertical' ></i>
+				<li><a  href = "index.html">Home</a></li>
+				<li><a  href = "about.html">about us</a></li>
+				<li><a class = "active" href = "products.html">What we have?</a></li>
+				<li><a href = "contact.html">Contact</a></li>
+			</ul>
+			<img id = "menu-btn" src = "images/menu.png">
+		</div>
+	</nav>
+
+	<!--Home-->
+
+	<section id = "products-Home-whoopie">
+		<h2 class = "maintext">"Where Every Bite and Sip Unleashes a Symphony of Sweet Bliss."</h2>
+	</section>
+	<section id = "products-inner">
+		<div class = "overview">
+			<img class = "products-img" src = "images/whoopiepiePic.jpg">
+			<div class = "products-head">
+				<div class = "p-name">
+					<h2>Whoopie pie and coffee...</h2>
+					<p>Whoopie pie and coffee are a perfect pairing, combining the creamy, 
+						coffee-infused delight of the dessert with the rich, robust flavor of a freshly brewed cup.
+					</p>
+				</div>
+				<span>$6.89</span>
+			</div>
+			<h3>Why whoopie pie good with coffee?</h3>
+			<p>Whoopie pies are a delectable companion to coffee for several reasons:
+				1. Complementary Flavors:<br><br>
+				The rich, chocolatey goodness of whoopie pies pairs perfectly with the bold, robust flavor of coffee, creating a harmonious balance of taste sensations.<br><br>
+				2. Textural Harmony: <br><br>
+				The soft, cake-like texture of whoopie pies contrasts beautifully with the smooth, liquid consistency of coffee, providing a delightful combination of mouthfeel experiences.<br><br>
+				3. Sensory Pleasure: <br><br>
+				Enjoying a whoopie pie with coffee stimulates multiple senses, from the aroma of freshly brewed coffee to the indulgent taste and texture of the dessert, enhancing the overall enjoyment of the experience.<br><br>
+				4. Energy Boost: <br><br>
+				Whoopie pies are often made with ingredients like flour, sugar, and eggs, providing a quick source of energy that complements the caffeine boost from coffee, keeping you energized throughout the day.<br><br>
+				5. Comfort and Indulgence: <br><br>
+				Both whoopie pies and coffee are associated with comfort and indulgence, making them a perfect pairing for cozy mornings, afternoon treats, or anytime you crave a satisfying snack.<br><br>
+				6. Social Enjoyment: <br><br>
+				Sharing whoopie pies and coffee with friends or loved ones fosters moments of connection and camaraderie, creating memorable experiences and strengthening bonds.
+				Overall, the combination of whoopie pies and coffee offers a delightful sensory experience, blending complementary flavors, textures, and aromas for a truly satisfying treat.
+			</p>
+		</div>
+		<div class = "enroll">
+			<h3>whoopie includes:</h3>
+			<p><i class='bx bx-cheese'></i> Whoopie pies contain carbohydrates and sugars, providing a quick source of energy to fuel your body.</p>
+			<p><i class='bx bx-sushi'></i> Enjoying whoopie pies can stimulate the senses and provide a sense of pleasure and satisfaction.</p>
+			<p><i class='bx bx-bowl-rice'></i> Treating yourself to a whoopie pie occasionally can contribute to overall mental well-being by allowing for moments of indulgence and enjoyment.</p>
+			<p><i class='bx bx-fork'></i>   Sharing whoopie pies with friends or loved ones can foster social connections and create positive experiences.</p>
+			<p><i class='bx bx-bowl-hot'></i>  Consuming foods we enjoy, like whoopie pies, can trigger the release of feel-good neurotransmitters in the brain, potentially boosting mood.</p>
+			<p><i class='bx bxs-hot' ></i> In times of stress or sadness, indulging in comfort foods like whoopie pies can provide a temporary sense of comfort and relief.</p>
+			<div class = "enroll-btn">
+				<a class = "blue" href = "#">Order</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Footer-->
+	<footer id = "products-footer-main">
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+</body>
+
+</html>

@@ -224,8 +224,8 @@ nav .navigation ul li a:hover{
 	text-align: center;
 	border-radius: 50%;
 	position: absolute;
-	left: 100px;
-	bottom: 130px;
+	left: 130px;
+	bottom: 90px;
 }
 
 /*registration*/
@@ -470,6 +470,7 @@ footer .copyright .pro-links{
 
 #about-container .about-text{
 	width: 40%;
+
 }
 #about-container .about-text h2{
 	color:sienna;
@@ -499,9 +500,257 @@ footer .copyright .pro-links{
 	font-size: 16px;
 	color: sienna;
 }
+#trust{
+	text-align: center;
+	padding: 8vw;
+}
+#trust .trust-img{
+	margin-top: 60px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+#trust .trust-img img{
+  width: 90px;
+  height: auto;
+}
+/*ProductsHome*/
+#products-Home{
+	background-image: linear-gradient(rgb(9, 5, 54, 0.3), rgb(5, 4, 46, 0.7)), url("images/productsMainpic.jpg");
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+#products-Home p{
+	width: 50%;
+	color: #fff;
+	font-size: 0.9rem;
+	line-height: 25px;
+}
+#products-Home h2{
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-family: dancing-c;
+	color:#fff;
+}
+#products-footer-main{
+	background-image:linear-gradient(rgba(127, 120, 185, 0.3), rgba(39, 39, 52, 0.7)), url("images/mainmenu.png");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;
+}
+#products-Home-bacons{
+	background-image: linear-gradient(rgb(9, 5, 54, 0.3), rgb(5, 4, 46, 0.7)), url("images/baconMainPic.jpg");
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+#products-Home-bacons h2{
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-family: dancing-c;
+	color:#fff;
+}
+/*product-inner*/
+#products-inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 8vw;
+}
+#products-inner .p-name h2{
+	padding: 35px 0 25px 0;
+	color:rgb(98, 50, 0);
+}
+#products-inner h3{
+	padding: 35px 0 25px 0;
+	color:rgb(98, 50, 0);
+}
+#products-inner .overview{
+	width: 70%;
+}
+#products-inner .overview .products-img{
+	width: 100%;
+	height: 60vh;
+	object-fit: cover;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+#products-inner .overview .products-head{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+#products-inner .overview .products-head .p-name{
+	width: 70%;
+
+}
+#products-inner .overview .products-head .p-name h2{
+	color: #29303b;
+}
+#products-inner .overview .products-head .p-name p{
+	font-size: 15px;
+}
+#products-inner .overview .products-head span{
+	padding: 16px 13px;
+	color:white;
+	font-weight: 700;
+	background-color: rgb(159, 90, 0);
+	border-radius: 50px;
+}
+#products-inner .enroll{
+	width: 300px;
+	padding: 0 30px 30px 30px;
+	border-radius: 11px;
+	box-shadow: 0px 20px 40px 0 rgb(122, 63, 1);
+}
+#products-inner .enroll h3{
+	padding-bottom: 10px;
+}
+#products-inner .enroll p{
+	font-size: 15px;
+	margin: 15px 0;
+}
+#products-inner .enroll p i{
+	font-weight: 700;
+	margin-right: 18px;
+	width: 16px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	color:rgba(255, 153, 0, 0.882)
+}
+#products-inner .enroll .enroll-btn{
+	padding: 25px 0 20px 0;
+	margin: auto;
+	text-align: center;
+}
+#products-inner .enroll .enroll-btn a{
+	text-decoration: none;
+	font-size: .8rem;
+	padding: 13px 45px;
+	border-radius: 30px;
+	font-weight: 600;
+	color: white;
+	background-color: rgb(98, 50, 0);
+}
+
+#products-Home-whoopie{
+	background-image: linear-gradient(rgb(9, 5, 54, 0.3), rgb(5, 4, 46, 0.7)), url("images/whoopiePieMainPic.jpg");
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+#products-Home-whoopie h2{
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-family: dancing-c;
+	color:#fff;
+}
+#products-Home-cheesecake{
+	background-image: linear-gradient(rgb(9, 5, 54, 0.3), rgb(5, 4, 46, 0.7)), url("images/cheesecakeMainPic.jpg");
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+#products-Home-cheesecake h2{
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-family: dancing-c;
+	color:#fff;
+}
+#products-Home-pudding{
+	background-image: linear-gradient(rgb(9, 5, 54, 0.3), rgb(5, 4, 46, 0.7)), url("images/puddingMainPic.jpg");
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+#products-Home-pudding h2{
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-family: dancing-c;
+	color:#fff;
+}
+#products-Home-croissant{
+	background-image: linear-gradient(rgb(9, 5, 54, 0.3), rgb(5, 4, 46, 0.7)), url("images/croissantMainPic.jpg");
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+#products-Home-croissant h2{
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-family: dancing-c;
+	color:#fff;
+}
+#products-Home-tiramisu{
+	background-image: linear-gradient(rgb(9, 5, 54, 0.3), rgb(5, 4, 46, 0.7)), url("images/tiramisuMainPic.jpg");
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 40px;
+}
+#products-Home-tiramisu h2{
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+	font-family: dancing-c;
+	color:#fff;
+}
 @media (max-width: 769px){
 	nav{
-		padding: 15px 20px
+		padding: 15px 20px;
+		z-index: 9999;
 	}
 	nav img{
 		width: 130px;
@@ -566,6 +815,44 @@ footer .copyright .pro-links{
 		align-items: center;
 		margin-left: 12px;
 	}
+	.footer .copyright .pro-links{
+		margin-top: 15px;
+	}
+	/*about*/
+	#about-container {
+    padding: 8vw 4vw 2vw 4vw;
+ 	}
+	/*products-inner*/
+	#products-inner {
+    display: flex;
+		flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8vw 4vw;
+	}
+	#products-inner .overview{
+		width: 100%;
+	}
+	#products-inner .overview .products-img{
+		width: 100%;
+		height: 100%;
+	}
+	#products-inner .enroll {
+		width: 100%;
+		margin-top: 20px;
+    display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	#products-inner .overview .products-head .p-name{
+		width: 50%;
+	}
+	#products-inner .overview .products-head .p-name h2{
+		font-size: 22px;
+	}
+	#products-inner .overview .products-head span {
+    font-size: 22px;
+	}
 }
 
 @media(max-width:475px){
@@ -584,6 +871,38 @@ footer .copyright .pro-links{
 		margin-bottom: 20px;
 		text-align: center;
 	}
+	/*about*/
+	* {
+    width: 100%;
+    box-sizing: border-box;
+}
+	#about-Home {
+    width: 100%;
+		padding-right: 0;
+}
+	#about-container {
+    flex-direction: column;
+	}
+	#about-container .about-img{
+		width: 100%;
+		padding-right: 0
+	}
+		#about-container .about-text{
+			width: 100%;
+			padding-bottom: 20px;
+		}
+		#trust .trust-img{
+			margin-top: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+		#trust .trust-img img{
+			width: 60px;
+			margin: 10px 15px;
+			height: auto;
+		}
 }
 
 

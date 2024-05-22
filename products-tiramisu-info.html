@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "styles.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<title>Early Bird Cafe</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = "stylesheet">
+</head>
+<body>
+	<!--Navigation-->
+	<nav>
+		<img src="images/logo.png">
+		<div class = "navigation">
+			<ul>
+				<i id = "menu-close" class='bx bx-shield-x bx-flip-vertical' ></i>
+				<li><a  href = "index.html">Home</a></li>
+				<li><a  href = "about.html">about us</a></li>
+				<li><a class = "active" href = "products.html">What we have?</a></li>
+				<li><a href = "contact.html">Contact</a></li>
+			</ul>
+			<img id = "menu-btn" src = "images/menu.png">
+		</div>
+	</nav>
+
+	<!--Home-->
+
+	<section id = "products-Home-tiramisu">
+		<h2 class = "maintext">" A Perfect Match, Every Sip and Bite a Delight."</h2>
+	</section>
+	<section id = "products-inner">
+		<div class = "overview">
+			<img class = "products-img" src = "images/tiramisuAndCoffee.jpg">
+			<div class = "products-head">
+				<div class = "p-name">
+					<h2>Tiramisu and coffee...</h2>
+					<p>Tiramisu and coffee are a perfect pairing, combining the creamy, 
+						coffee-infused delight of the dessert with the rich, robust flavor of a freshly brewed cup.
+					</p>
+				</div>
+				<span>$5.89</span>
+			</div>
+			<h3>Why tiramisu good with coffee?</h3>
+			<p>1. Complementary Flavors<br><br>
+				Coffee-Infused Delight: Tiramisu is traditionally made with layers of espresso-soaked ladyfingers, harmonizing perfectly with the rich, robust flavor of coffee.
+				Balanced Sweetness and Bitterness: The sweetness of tiramisu’s mascarpone cream and cocoa powder balances the bitterness of the coffee, creating a well-rounded flavor profile.<br><br>
+				2. Harmonious Textures<br><br>
+				Creamy and Smooth: The creamy, smooth texture of tiramisu contrasts beautifully with the liquid warmth of coffee, enhancing the overall sensory experience.
+				Soft and Moist Layers: The soft, moist layers of tiramisu complement the bold, invigorating sips of coffee, providing a delightful interplay of textures.<br><br>
+				3. Cultural and Culinary Tradition<br><br>
+				Italian Roots: Both tiramisu and espresso are iconic elements of Italian cuisine, making them a natural and traditional pairing that celebrates Italian culinary heritage.
+				Classic Dessert Duo: Enjoying tiramisu with coffee is a classic dessert experience, often seen in Italian cafés and restaurants, underscoring the timeless appeal of this combination.<br><br>
+				4. Aromatic Synergy<br><br>
+				Enticing Aromas: The rich aroma of freshly brewed coffee enhances the delightful scents of cocoa and espresso in tiramisu, creating an aromatic synergy that heightens the enjoyment of both.
+				Inviting Atmosphere: The combined aromas of tiramisu and coffee create an inviting, comforting atmosphere, perfect for relaxation and indulgence.<br><br>
+				5. Enhanced Enjoyment<br><br>
+				Mutual Enhancement: The flavors of coffee and tiramisu enhance each other; the coffee amplifies the dessert’s espresso notes, while the tiramisu’s sweetness mellows the coffee’s bitterness.
+				Satisfying Experience: Together, tiramisu and coffee offer a satisfying, indulgent experience that is perfect for ending a meal or enjoying a moment of relaxation.<br><br>
+				6. Versatility and Customization<br><br>
+				Flavor Variations: Both tiramisu and coffee can be customized with various flavors, such as adding liqueurs to tiramisu or trying different coffee beans and brewing methods, allowing for endless pairing possibilities.
+				Personal Preferences: This pairing can be adapted to suit individual tastes, making it a versatile and enjoyable option for a wide range of preferences.
+				Overall, the combination of tiramisu and coffee creates a delightful and harmonious dessert experience, blending complementary flavors, textures, and aromas for a truly satisfying treat.
+			</p>
+		</div>
+		<div class = "enroll">
+			<h3>tiramisu includes:</h3>
+			<p><i class='bx bx-cheese'></i> Tiramisu includes mascarpone cheese and eggs, both of which are good sources of protein</p>
+			<p><i class='bx bx-sushi'></i> The mascarpone cheese provides calcium, which is vital for healthy bones and teeth</p>
+			<p><i class='bx bx-bowl-rice'></i> Eggs and mascarpone contribute B vitamins, including B2 (riboflavin) and B12</p>
+			<p><i class='bx bx-fork'></i>  Cocoa powder, often sprinkled on top, contains antioxidants that help protect the body from free radicals and reduce inflammation.</p>
+			<p><i class='bx bx-bowl-hot'></i>  As a classic Italian dessert, tiramisu adds a touch of elegance and tradition to any meal.</p>
+			<p><i class='bx bxs-hot' ></i> Tiramisu is easy to prepare as it requires no baking, making it a convenient dessert option.</p>
+			<div class = "enroll-btn">
+				<a class = "blue" href = "#">Order</a>
+			</div>
+		</div>
+	</section>
+
+
+	<!--Footer-->
+	<footer id = "products-footer-main">
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "stylesheet" href = "styles.css">
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<title>Early Bird Cafe</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel = "stylesheet">
+</head>
+<body>
+	<!--Navigation-->
+	<nav>
+		<img src="images/logo.png">
+		<div class = "navigation">
+			<ul>
+				<i id = "menu-close" class='bx bx-shield-x bx-flip-vertical' ></i>
+				<li><a  href = "index.html">Home</a></li>
+				<li><a  href = "about.html">about us</a></li>
+				<li><a class = "active" href = "products.html">What we have?</a></li>
+				<li><a href = "contact.html">Contact</a></li>
+			</ul>
+			<img id = "menu-btn" src = "images/menu.png">
+		</div>
+	</nav>
+
+	<!--Home-->
+
+	<section id = "products-Home">
+		<h2 class = "maintext">"What we have..."</h2>
+		<p>The Birth of Early Bird cafe...
+			At Early Bird Café, we believe that every morning deserves to start with a touch of magic. 
+			From our rich, aromatic coffee to our freshly baked pastries, we offer a delightful escape 
+			from the ordinary. Our menu is crafted with love and care, featuring locally-sourced ingredients 
+			and a variety of options to suit every taste. Whether you're here to grab a quick coffee, enjoy a 
+			leisurely breakfast, or catch up with friends, we've got something special just for you. Come and 
+			experience the best part of waking up at Early Bird Café!
+			</p>
+	</section>
+	<section id ="products">
+		<h1>what we also have...</h1>
+		<p>beside our best products we have some other popular products!!!!</p>
+		<div class= "product-box">
+	
+		<div onclick="window.location.href='products-bacons-info.html';" class = "coffee">
+			<img src ="/images/bacon.jpg" alt ="bacon">
+			<div class ="details">
+				<span>Crispy Perfection in Every Bite</span>
+				<h6>Bacons</h6>
+				</div>
+				<div class = "cost">
+					$4.35
+				</div>
+			</div>
+	
+			<div onclick="window.location.href='products-croissant-info.html';"  class = "coffee">
+				<img src ="/images/crossant.png" alt ="croissant">
+				<div class ="details">
+					<span>Flaky Goodness, Fresh Every Day</span>
+					<h6>Croissant</h6>
+					</div>
+					<div class = "cost">
+						$4.15
+					</div>
+				</div>
+	
+				<div  onclick="window.location.href='products-tiramisu-info.html';" class = "coffee">
+					<img src ="/images/Tiramisu.jpg" alt ="tiramisu">
+					<div class ="details">
+						<span>Indulge in Layers of Delight</span>
+						<h6>Tiramisu</h6>
+						</div>
+						<div class = "cost">
+							$5.20
+						</div>
+					</div>
+	
+					<div onclick="window.location.href='products-pudding-info.html';" class = "coffee">
+						<img src ="/images/toppioca pudding.jpg" alt ="pudding">
+						<div class ="details">
+							<span>Creamy Comfort, Spoonfuls of Joy</span>
+							<h6>Toppioca pudding</h6>
+							</div>
+							<div class = "cost">
+								$3.50
+							</div>
+						</div>
+	
+						<div onclick="window.location.href='products-cheesecake-info.html';" class = "coffee">
+							<img src ="/images/cheesecake.jpg" alt ="cheesecake">
+							<div class ="details">
+								<span>Heavenly Creaminess in Every Slice</span>
+								<h6>Cheesecake</h6>
+								</div>
+								<div class = "cost">
+									$4.10
+								</div>
+							</div>
+	
+							<div onclick="window.location.href='products-whoopiepie-info.html';" class = "coffee">
+								<img src ="/images/whoopie pie.jpg" alt ="whoopie pie">
+								<div class ="details">
+									<span>Sweet Sandwich, Pure Bliss</span>
+									<h6>Whoopie pie</h6>
+									</div>
+									<div class = "cost">
+										$6.35
+									</div>
+								</div>
+	
+			</div>
+		</div>
+		</div>
+	</section>
+
+
+	<!--Footer-->
+	<footer id = "products-footer-main">
+	</footer>
+	<script>
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+</body>
+
+</html>
