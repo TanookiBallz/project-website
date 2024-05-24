@@ -504,6 +504,10 @@ footer .copyright .pro-links{
 	text-align: center;
 	padding: 8vw;
 }
+#trust h1{
+	color:rgb(98, 50, 0);
+
+}
 #trust .trust-img{
 	margin-top: 60px;
 	display:flex;
@@ -540,6 +544,9 @@ footer .copyright .pro-links{
 	letter-spacing: 1px;
 	font-family: dancing-c;
 	color:#fff;
+}
+#products h1{
+	color:rgb(98, 50, 0);
 }
 #products-footer-main{
 	background-image:linear-gradient(rgba(127, 120, 185, 0.3), rgba(39, 39, 52, 0.7)), url("images/mainmenu.png");
